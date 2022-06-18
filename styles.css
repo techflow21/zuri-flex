@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap");
+
+.container {
+  width: 860px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 150px 250px 125px 250px;
+  background-color: white;
+}
+.sedans-icon {
+  padding-top: 40px;
+  padding-left: 40px;
+  background-color: hsl(31, 77%, 52%);
+  width: 250px;
+  height: 450px;
+  border-radius: 5% 0% 0% 5%;
+}
+.suvs-icon {
+  padding-top: 40px;
+  padding-left: 40px;
+  background-color: hsl(184, 100%, 22%);
+  width: 250px;
+  height: 450px;
+}
+.luxury-icon {
+  padding-top: 40px;
+  padding-left: 40px;
+  background-color: hsl(179, 100%, 13%);
+  width: 250px;
+  height: 450px;
+  border-radius: 0% 5% 5% 0%;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: bold;
+  font-size: 33px;
+}
+p {
+  line-height: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-size: 15px;
+}
+.btn1 {
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  border: solid #ffffff 0px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #e38826;
+  font-size: 16px;
+  background: #ffffff;
+  padding: 12px 23px 12px 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn2 {
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  border: solid #ffffff 0px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(184, 100%, 22%);
+  font-size: 16px;
+  background: #ffffff;
+  padding: 12px 23px 12px 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn3 {
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  border: solid #ffffff 0px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(179, 100%, 13%);
+  font-size: 16px;
+  background: #ffffff;
+  padding: 12px 23px 12px 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
